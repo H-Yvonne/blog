@@ -1,0 +1,45 @@
+/**
+ * base.scss
+ * 用于定义基础样式
+ * @author H.Yvonne
+ * @create 2015.10.27
+ */
+
+html {
+    // overflow-y: hidden;
+    // min-width: 1024px;
+}
+body {
+    background-color: #f7f7f7;
+    // overflow: hidden;
+}
+.icons {
+    background: url(../images/common/common_icons.png) no-repeat;
+}
+.plat-icons {
+    background: url(../images/common/platform_icons.png) no-repeat;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: '.';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.none { 
+    display:none;
+}
+.mb20 {
+    margin-bottom: 20px;
+}

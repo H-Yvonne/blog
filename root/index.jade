@@ -1,0 +1,55 @@
+doctype html
+html(lang="zh")
+  head
+    meta(charset="UTF-8")
+    meta(name="description" content="")
+    meta(name="keywords" content="")
+    meta(name="author" content="胡月")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+    meta(name="apple-mobile-web-app-capable" content="yes")
+    title 首页
+    link(rel="stylesheet" href="/css/common.css")
+    link(rel="stylesheet" href="/css/home.css")
+  body
+    div.hy-container
+        header.hy-main-head.clearfix
+            nav.fr.hy-main-nav
+                ul.clearfix
+                    li.it
+                        a(href="/") 首页
+                    li.it
+                        a(href="/blog/list") 博客
+        div.hy-home-main
+            section.hy-home-page.hy-home-intro.hy-home-activepage
+                div.hy-page-wrap.hy-intro-wrap
+                    h.hy-intro-title Hello World
+                    p.hy-intro-txt 通往未来的路途总是正在施工
+                    a(href="javascript:;").hy-home-arrow.hy-intro-arrow
+            section.hy-home-page.hy-home-what.hy-home-activepage
+                div.hy-page-wrap.hy-common-wrap
+                    div.hy-common-inner.hy-what-inner
+                        h2.hy-common-title What I Do
+                        p.hy-common-txt 前端工程师，底层劳动人民，不搬砖就没有盒饭
+                        p.hy-common-txt 对电脑、对程序并不痴迷，为什么进入这行呢，纯属巧合，既然做了那就做着吧，反正人生处处都是坑，只是，这个坑好像有点深
+                    a(href="javascript:;").hy-home-arrow.hy-common-arrow
+            section.hy-home-page.hy-home-who.hy-home-activepage
+                div.hy-page-wrap.hy-common-wrap
+                    div.hy-common-inner.hy-who-inner
+                        h2.hy-common-title Who I Am
+                        p.hy-common-txt 90后巨蟹女
+                        p.hy-common-txt 20几岁的年纪过着五十几岁的生活，兴趣、爱好、梦想好像都与我无关，常常在思考，我能活到现在真的不容易
+                        p.hy-common-txt “凶残”是我的本性，常被人嘲笑能不能温柔点，但是，我的字典没这个词啊
+                    a(href="javascript:;").hy-home-arrow.hy-common-arrow
+            section.hy-home-page.hy-home-contact.hy-home-activepage
+                div.hy-page-wrap
+                    h2.hy-contact-title Contact Me
+                    p.hy-contact-txt 你确定还有什么想说的么
+                    div.hy-contact-wrap
+                        div.clearfix
+                            div.hy-contact-inpwrap
+                                input(type="text" placeholder="name").hy-contact-input
+                            div.hy-contact-inpwrap
+                                input(type="text" placeholder="email").hy-contact-input
+                        div.hy-contact-textwrap
+                            textarea(placeholder="message").hy-contact-textarea
+                        button.hy-contact-btn Send Message
