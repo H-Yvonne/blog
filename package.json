@@ -9,7 +9,8 @@
   "author": "",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "dufing": "~1.0.6"
+    "dufing": "~1.0.6",
+    "mongodb": "^2.1.14"
   },
   "devDependencies": {
     "supervisor": "^0.9.1"
