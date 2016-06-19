@@ -4,6 +4,7 @@ var open = (function () {
 	var db = null;
 	var connectionStatus = 0;
 	var callbacks = [];
+	console.log(1);
 	return function (cb) {
 		if(db) {
 			if(typeof(cb) == 'function') {
